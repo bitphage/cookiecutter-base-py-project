@@ -1,0 +1,13 @@
+{
+    "project_name": "test-project",
+    "package_name": "package",
+    "version": "0.1.0",
+    "description": "My project",
+    "email": "email@example.com",
+    "full_name": "Author Name",
+    "author": "author",
+    "license": "MIT",
+    "url": "https://github.com/{{ cookiecutter.author }}/{{ cookiecutter.project_name }}",
+    "virtualenv": "venv",
+    "line_width": 88
+}

@@ -1,0 +1,10 @@
+.idea/*
+{{ cookiecutter.virtualenv }}/*
+*.log
+
+*.py[cod]
+__pycache__/
+dist/
+build/
+_build/
+*.egg-info
