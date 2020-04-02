@@ -1,4 +1,4 @@
-# Cookiecutter Python Package Template
+# Cookiecutter Template for Python Project
 
 This is a basic template with minimal features.
 
