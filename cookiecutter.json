@@ -8,6 +8,5 @@
     "author": "author",
     "license": "MIT",
     "url": "https://github.com/{{ cookiecutter.author }}/{{ cookiecutter.project_name }}",
-    "virtualenv": "venv",
     "line_width": 88
 }
