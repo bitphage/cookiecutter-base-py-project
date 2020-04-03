@@ -6,7 +6,7 @@ This is a basic template with minimal features.
 
 * Pipenv-oriented
 * pre-commit hooks which calls:
-  * flake8
+  * flake8 (+ plugins)
   * isort
   * black
   * [docformatter](https://github.com/myint/docformatter)
