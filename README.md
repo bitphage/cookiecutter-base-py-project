@@ -5,10 +5,12 @@ This is a basic template with minimal features.
 ## Features
 
 * Pipenv-oriented
-* pre-commit hooks
-* black
-* isort
-* flake8
+* pre-commit hooks which calls:
+  * flake8
+  * isort
+  * black
+  * [docformatter](https://github.com/myint/docformatter)
+
 
 ## Setup
 
