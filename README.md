@@ -10,6 +10,7 @@ This is a basic template with minimal features.
   * isort
   * black
   * [docformatter](https://github.com/myint/docformatter)
+  * [mypy](https://mypy.readthedocs.io/)
 
 
 ## Setup
