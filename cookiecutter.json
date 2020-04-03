@@ -8,5 +8,5 @@
     "author": "author",
     "license": "MIT",
     "url": "https://github.com/{{ cookiecutter.author }}/{{ cookiecutter.project_name }}",
-    "line_width": 88
+    "line_width": 120
 }
