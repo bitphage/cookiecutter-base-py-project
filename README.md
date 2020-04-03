@@ -6,12 +6,11 @@ This is a basic template with minimal features.
 
 * Pipenv-oriented
 * pre-commit hooks which calls:
-  * flake8 (+ plugins)
-  * isort
-  * black
-  * [docformatter](https://github.com/myint/docformatter)
-  * [mypy](https://mypy.readthedocs.io/)
-
+  * Linting with [flake8](https://flake8.pycqa.org/en/latest/) (+ plugins)
+  * Sorting imports with [isort](https://github.com/timothycrosley/isort)
+  * Code formatting with [black](https://black.readthedocs.io/en/stable/)
+  * Docstrings formatting with [docformatter](https://github.com/myint/docformatter)
+  * Static type checking with [mypy](https://mypy.readthedocs.io/)
 
 ## Setup
 
