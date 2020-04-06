@@ -7,6 +7,7 @@ This is a basic template with minimal features.
 * Pipenv-oriented
 * pre-commit hooks which calls:
   * Linting with [flake8](https://flake8.pycqa.org/en/latest/) (+ plugins)
+  * Remove unused imports and variables with [autoflake](https://github.com/myint/autoflake)
   * Sorting imports with [isort](https://github.com/timothycrosley/isort)
   * Code formatting with [black](https://black.readthedocs.io/en/stable/)
   * Docstrings formatting with [docformatter](https://github.com/myint/docformatter)
