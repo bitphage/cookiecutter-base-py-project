@@ -3,10 +3,8 @@
     "package_name": "package",
     "version": "0.1.0",
     "description": "My project",
-    "email": "email@example.com",
-    "full_name": "Author Name",
-    "author": "author",
+    "email": "vvk@vvk.pp.ru",
+    "full_name": "Vladimir Kamarzin",
     "license": "MIT",
-    "url": "https://github.com/{{ cookiecutter.author }}/{{ cookiecutter.project_name }}",
     "line_width": 120
 }

@@ -4,8 +4,8 @@ This is a basic template with minimal features.
 
 ## Features
 
-* Pipenv-oriented
-* pre-commit hooks which calls:
+* poetry for package management
+* pre-commit hooks:
   * Linting with [flake8](https://flake8.pycqa.org/en/latest/) (+ plugins)
   * Remove unused imports and variables with [autoflake](https://github.com/myint/autoflake)
   * Sorting imports with [isort](https://github.com/timothycrosley/isort)
