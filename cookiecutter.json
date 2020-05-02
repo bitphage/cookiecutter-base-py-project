@@ -3,6 +3,7 @@
     "package_name": "package",
     "version": "0.1.0",
     "description": "My project",
+    "author": "bitfag",
     "email": "vvk@vvk.pp.ru",
     "full_name": "Vladimir Kamarzin",
     "license": "MIT",
