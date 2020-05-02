@@ -13,6 +13,7 @@ This is a basic template with minimal features.
   * Docstrings formatting with [docformatter](https://github.com/myint/docformatter)
   * Static type checking with [mypy](https://mypy.readthedocs.io/)
 * pytest
+* sphinx + [sphinx-autoapi](https://sphinx-autoapi.readthedocs.io/) for automatic API documentation
 
 ## Setup
 
