@@ -31,8 +31,8 @@ def _get_project_meta():
 
 pkg_meta = _get_project_meta()
 project = pkg_meta['name']
-copyright = '2020, {{ cookiecutter.author }}'  # noqa: WPS125
-author = '{{ cookiecutter.author }}'
+copyright = '2020, {{ cookiecutter.full_name }}'  # noqa: WPS125,VNE003
+author = '{{ cookiecutter.full_name }}'
 
 # The short X.Y version
 version = pkg_meta['version']
