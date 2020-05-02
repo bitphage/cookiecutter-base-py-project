@@ -49,12 +49,10 @@ needs_sphinx = '2.3'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.autodoc',
     'sphinx.ext.doctest',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.viewcode',
-    'sphinx.ext.autosummary',
 
     # Used to write beautiful docstrings:
     'sphinx.ext.napoleon',
@@ -64,17 +62,13 @@ extensions = [
 
     # Used to insert typehints into the final docs:
     'sphinx_autodoc_typehints',
+
+    # Auto-generate API documentation
+    'autoapi.extension',
 ]
 
-autoclass_content = 'class'
-autodoc_member_order = 'bysource'
-
-autodoc_member_order = 'bysource'
-autodoc_default_flags = {
-    'members': '',
-    'undoc-members': 'code,error_template',
-    'exclude-members': '__dict__,__weakref__',
-}
+autoapi_type = 'python'
+autoapi_dirs = ['../{{ cookiecutter.package_name }}']
 
 # Set `typing.TYPE_CHECKING` to `True`:
 # https://pypi.org/project/sphinx-autodoc-typehints/
