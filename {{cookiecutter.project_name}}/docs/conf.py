@@ -57,18 +57,12 @@ extensions = [
     'sphinx.ext.napoleon',
     # Used to include .md files:
     'm2r',
-    # Used to insert typehints into the final docs:
-    'sphinx_autodoc_typehints',
     # Auto-generate API documentation
     'autoapi.extension',
 ]
 
 autoapi_type = 'python'
 autoapi_dirs = ['../{{ cookiecutter.package_name }}']
-
-# Set `typing.TYPE_CHECKING` to `True`:
-# https://pypi.org/project/sphinx-autodoc-typehints/
-set_type_checking_flag = False
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
