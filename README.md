@@ -12,6 +12,7 @@ This is a basic template with minimal features.
   * Code formatting with [black](https://black.readthedocs.io/en/stable/)
   * Docstrings formatting with [docformatter](https://github.com/myint/docformatter)
   * Static type checking with [mypy](https://mypy.readthedocs.io/)
+* pytest
 
 ## Setup
 
