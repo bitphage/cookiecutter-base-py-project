@@ -53,16 +53,12 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.viewcode',
-
     # Used to write beautiful docstrings:
     'sphinx.ext.napoleon',
-
     # Used to include .md files:
     'm2r',
-
     # Used to insert typehints into the final docs:
     'sphinx_autodoc_typehints',
-
     # Auto-generate API documentation
     'autoapi.extension',
 ]
