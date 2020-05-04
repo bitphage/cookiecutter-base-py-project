@@ -53,6 +53,7 @@ extensions = [
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
     'sphinx.ext.viewcode',
+    'sphinx.ext.intersphinx',
     # Used to write beautiful docstrings:
     'sphinx.ext.napoleon',
     # Used to include .md files:
@@ -141,3 +142,7 @@ napoleon_numpy_docstring = False
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
+
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/3', None),
+}
