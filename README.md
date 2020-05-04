@@ -14,6 +14,7 @@ This is a basic template with minimal features.
   * Static type checking with [mypy](https://mypy.readthedocs.io/)
 * pytest
 * sphinx + [sphinx-autoapi](https://sphinx-autoapi.readthedocs.io/) for automatic API documentation
+* [github workflow](https://help.github.com/en/actions) to run pytest
 
 ## Setup
 
