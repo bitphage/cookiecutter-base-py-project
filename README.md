@@ -12,7 +12,7 @@ This is a basic template with minimal features.
   * Code formatting with [black](https://black.readthedocs.io/en/stable/)
   * Docstrings formatting with [docformatter](https://github.com/myint/docformatter)
   * Static type checking with [mypy](https://mypy.readthedocs.io/)
-* [pytest](https://docs.pytest.org/en/latest/) + cov + mock
+* [pytest](https://docs.pytest.org/en/latest/) + [pytest-cov](https://pytest-cov.readthedocs.io/) + [pytest-mock](https://github.com/pytest-dev/pytest-mock)
 * [sphinx](https://www.sphinx-doc.org/) + [sphinx-autoapi](https://sphinx-autoapi.readthedocs.io/) for automatic API documentation
 * [github workflow](https://help.github.com/en/actions) to run pytest
 
