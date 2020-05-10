@@ -14,7 +14,9 @@ This is a basic template with minimal features.
   * Static type checking with [mypy](https://mypy.readthedocs.io/)
 * [pytest](https://docs.pytest.org/en/latest/) + [pytest-cov](https://pytest-cov.readthedocs.io/) + [pytest-mock](https://github.com/pytest-dev/pytest-mock)
 * [sphinx](https://www.sphinx-doc.org/) + [sphinx-autoapi](https://sphinx-autoapi.readthedocs.io/) for automatic API documentation
-* [github workflow](https://help.github.com/en/actions) to run pytest
+* [github actions](https://help.github.com/en/actions):
+  * Run *pre-commit* checks on PRs
+  * Run pytest on commits and PRs
 
 ## Setup
 
