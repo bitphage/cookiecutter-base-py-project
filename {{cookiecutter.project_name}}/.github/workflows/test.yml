@@ -1,4 +1,4 @@
-{% raw %}name: test
+{% raw %}
 name: test
 
 on: [push, pull_request]
