@@ -1,6 +1,9 @@
 # Read up on pre-commit
 # https://ljvmiranda921.github.io/notebook/2018/06/21/precommits-using-black-and-flake8/
 
+# Left pycharm settings untoched
+exclude: .idea/
+
 repos:
 
 - repo: https://github.com/pre-commit/pre-commit-hooks
