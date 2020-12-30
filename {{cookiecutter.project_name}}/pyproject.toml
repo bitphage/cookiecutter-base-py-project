@@ -21,6 +21,7 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
+# See https://python-poetry.org/docs/dependency-specification/
 python = "^3.6.1"
 
 [tool.poetry.dev-dependencies]
@@ -49,3 +50,18 @@ exclude = '''
   | dist
 )/
 '''
+
+[tool.pytest.ini_options]
+# Directories that are not visited by pytest collector:
+norecursedirs = "*.egg .eggs dist build docs .tox .git __pycache__"
+
+# Extra options:
+addopts = [
+  "--strict",
+  "--doctest-modules",
+  "--cov={{ cookiecutter.package_name }}",
+  "--cov-report=term:skip-covered",
+  "--cov-report=html",
+  "--cov-branch",
+  "--cov-append",
+  ]
